@@ -1,0 +1,59 @@
+:root {
+  --azul-marino: #0A2342;
+  --azul-oscuro: #1A2A40;
+  --gris-oscuro: #2E2E2E;
+  --beige: #F5F2E7;
+  --dorado: #C8A75E;
+  --blanco: #FFFFFF;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--beige);
+  color: var(--gris-oscuro);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: var(--azul-marino);
+}
+
+a {
+  color: var(--azul-marino);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dorado);
+}
+
+.btn-primary {
+  background-color: var(--dorado);
+  border: none;
+  color: var(--azul-marino);
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--azul-oscuro);
+  color: var(--blanco);
+}
+
+.navbar {
+  background-color: var(--azul-marino) !important;
+}
+
+.navbar .nav-link {
+  color: var(--blanco) !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--dorado) !important;
+}
+
+.footer {
+  background-color: var(--azul-oscuro);
+  color: var(--blanco);
+}
